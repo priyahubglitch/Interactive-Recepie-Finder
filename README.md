@@ -1,78 +1,37 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #fef9f4;
-}
+Objective
 
-header {
-    background-color: #ff6f61;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
+Many people face the dilemma of “What can I cook with what I have?” This project solves that problem by:
 
-.input-section {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
+Allowing users to input ingredients they have.
 
-input {
-    width: 300px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-}
+Fetching recipes that can be made using those ingredients.
 
-button {
-    padding: 10px 15px;
-    border: none;
-    background-color: #ff6f61;
-    color: white;
-    cursor: pointer;
-    border-radius: 0 5px 5px 0;
-}
+Saving time and reducing food waste by suggesting smart recipes.
 
-button:hover {
-    background-color: #e65b50;
-}
+Key Features
 
-.recipes-section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
+Ingredient Input: Users can type or select ingredients they have at home.
 
-.recipe-card {
-    background: white;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    text-align: center;
-}
+API Integration: Fetch recipes from Spoonacular API or Edamam API.
 
-.recipe-card img {
-    width: 100%;
-    border-radius: 10px;
-}
+Recipe Suggestions: Show recipe title, image, ingredients, and instructions.
 
-.recipe-card h3 {
-    margin: 10px 0;
-}
+Advanced Features:
 
-.recipe-card a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 8px 12px;
-    background-color: #ff6f61;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-}
+Filter by cuisine, diet (vegetarian, vegan, gluten-free).
 
-.recipe-card a:hover {
-    background-color: #e65b50;
-}
+Save favorite recipes in local storage.
+
+Generate a shopping list for missing ingredients.
+
+Responsive UI for mobile and desktop.
+
+Tech Stack
+
+Frontend: HTML, CSS, JavaScript
+
+API: Spoonacular or Edamam for recipe data
+
+Live Demo link for the Website 
+http://127.0.0.1:5500/index.html
+https://spoonacular.com/recipes/Curry-Leaves-Potato-Chips-641122

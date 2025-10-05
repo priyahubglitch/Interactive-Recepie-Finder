@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍳 Interactive Recipe Finder</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <input type="text" id="ingredients" placeholder="Enter ingredients (comma separated)">
+            <button id="searchBtn">Search Recipes</button>
+        </section>
+        <section id="recipes" class="recipes-section">
+            <!-- Recipes will be displayed here -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
